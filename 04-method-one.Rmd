@@ -1,4 +1,6 @@
-# Korjausmetodi 1: *merge*-toiminto
+# Korjausmetodi 1: *merge*-toiminto{#method-one}
+
+
 
 <br><br>
 <img src="images/merge.jpg" alt="Test Image" style="max-width: 100%; height: auto;">

@@ -1,5 +1,5 @@
 
-# Ei Git-haaraongelmia
+# Ei Git-haaraongelmia{#no-divergences}
 
 <br><br>
 <img src="images/no-divergence.jpg" alt="Test Image" style="max-width: 100%; height: auto;">
@@ -119,21 +119,3 @@ Seuraavassa luvussa tarkastelemme tilannetta, jossa molemmat käyttäjät muokka
 Divergent Git branches - ongelmasta ratkaisuun © 2025 by Ville Langén is licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
 
 [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
-
-<!-- ```{js, echo = FALSE} -->
-<!-- document.addEventListener('DOMContentLoaded', function () { -->
-<!--     // Select all <h1> elements with the class "hasAnchor" -->
-<!--     const titles = document.querySelectorAll('h1.hasAnchor'); -->
-
-<!--     titles.forEach(title => { -->
-<!--         // Add the image and content to each <h1> element -->
-<!--         title.innerHTML +=  -->
-<!--             '<br><br><img src="images/cover_photo.jpeg" alt="Test Image">' + -->
-<!--             '<figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">' + -->
-<!--             'Image credit: <a href="https://www.pexels.com/photo/cherry-blossom-tree-932409/" target="_blank">Pexels</a>' + -->
-<!--             '</figcaption><br><br>' + -->
-<!--             '<p><em>This e-book is available also <a href="https://r-guide-in-english.netlify.app/" target="_blank">in English.</a></em></p>'; -->
-<!--     }); -->
-<!-- }); -->
-<!-- ``` -->
-

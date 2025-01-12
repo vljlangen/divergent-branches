@@ -40,27 +40,18 @@ haluavat syventää osaamistaan haarojen hallinnasta.
 
 ## Rakenne
 
-Kirja on jaettu kolmeen osaan: 1. **Perusteet**: Gitin toiminnan ja
-haarautumisen ymmärtäminen. 2. **Menetelmät divergent-haarojen
-hallintaan**: - Menetelmä 1: Tiedoston siirto ja pakotettu päivitys. -
-Menetelmä 2: Tiedoston uudelleennimeäminen ja hakeminen. - Menetelmä 3:
-Manuaalinen konfliktien ratkaisu yhdistämisen yhteydessä. 3. **Käytännön
-vinkit ja parhaat käytännöt**: Esimerkkejä ja vinkkejä
-tutkimusprojekteihin.
+Kirja on jaettu kolmeen osaan:
 
-------------------------------------------------------------------------
+1. Gitin toiminnan ja haarautumisen ymmärtäminen (kappaleet \@ref(one-or-many-brances), \@ref(no-divergences) ja \@ref(divergences))
+
+2. Kolme eri menetelmää divergoituneiden haarojen hallintaan (kappaleet \@ref(method-one), \@ref(method-two) ja \@ref(method-three))
+
+3. Yhteenveto-osio - ***[johon kiireisimmät voivat siirtyä suoraan](#summary)!*** 🏃🙂
+
+\
 
 Seuraavassa luvussa sukellamme Gitin perusteisiin ja sen toimintaan
 haarautumisessa.
-
-<br>
-
-Tämä opas on saatavilla myös
-[englanniksi](https://r-guide-in-english.netlify.app/): this short guide
-is available also [in English](https://r-guide-in-english.netlify.app/).
-
-
-\
 
 \
 

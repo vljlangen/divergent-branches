@@ -1,4 +1,4 @@
-# Korjausmetodi 2: *git reset*
+# Korjausmetodi 2: *git reset*{#method-two}
 
 <br><br> <img src="images/reset.jpg" alt="Test Image" style="max-width: 100%; height: auto;"/>
 
@@ -12,7 +12,7 @@ Image credit: <a href="https://www.pexels.com/photo/road-landscape-art-street-27
 
 Kun käyttäjä yrittää tehdä muutoksia, mutta etähakemistossa oleva päähaara on edennyt samanaikaisesti, Git-haarojen divergoituminen voi estää työn sujuvan etenemisen. Yksi tapa ratkaista tällaisia tilanteita on käyttää **reset-menetelmää**. Tässä luvussa esittelemme tästä esimerkin.
 
-## Alkutilanne
+## Alkutilanne{#alkutilanne}
 
 Alkutilanne on vastaava kuin edellä osiossa \@ref(pull-without-merge).
 
@@ -173,6 +173,7 @@ Reset-metodi tarjoaa suoraviivaisen ja tehokkaan tavan ratkaista tilanteita, joi
 
 Reset-metodin avulla vältetään monimutkaisempien konfliktien selvittäminen ja säilytetään sekä oma työ että tiimin päähaaran eheys.
 
+\
 
 ------------------------------------------------------------------------
 

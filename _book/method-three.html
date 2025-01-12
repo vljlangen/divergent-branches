@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | Divergent Git branches - ongelmasta ratkaisuun</title>
+  <title>7 Korjausmetodi 3: kloonaus | Divergent Git branches - ongelmasta ratkaisuun</title>
   <meta name="description" content="Opas Gitin käyttöön tieteellisissä projekteissa, joissa keskitytään toimimaan yhden päähaaran sisällä." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | Divergent Git branches - ongelmasta ratkaisuun" />
+  <meta property="og:title" content="7 Korjausmetodi 3: kloonaus | Divergent Git branches - ongelmasta ratkaisuun" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Opas Gitin käyttöön tieteellisissä projekteissa, joissa keskitytään toimimaan yhden päähaaran sisällä." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Divergent Git branches - ongelmasta ratkaisuun" />
+  <meta name="twitter:title" content="7 Korjausmetodi 3: kloonaus | Divergent Git branches - ongelmasta ratkaisuun" />
   
   <meta name="twitter:description" content="Opas Gitin käyttöön tieteellisissä projekteissa, joissa keskitytään toimimaan yhden päähaaran sisällä." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="method-two.html"/>
+<link rel="next" href="hienosäätö-git-diff.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -203,19 +203,58 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="method-three" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> Korjausmetodi 3: kloonaus<a href="method-three.html#method-three" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><br><br> <img src="images/cloning.jpg" alt="Test Image" style="max-width: 100%; height: auto;"/></p>
+<figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
+<p>Image credit: <a href="https://www.pexels.com/photo/people-posing-in-costumes-with-golden-masks-15498630/" target="_blank">Pexels</a></p>
+</figcaption>
+<p><br><br></p>
+<p>Jos edelliset korjausmenetelmät eivät toimi tai sovellu käytettäviksi, voit aina aloittaa puhtaalta pöydältä kloonaamalla uuden version etähakemistosta. Samalla tämä paitsi tuo mukanaan puhtaan version projektistasi myös poistaa ongelmat ja ristiriidat, joita paikallisen Git-hakemiston kanssa oli.</p>
+<div id="työvaiheet" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Työvaiheet<a href="method-three.html#työvaiheet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Ensimmäinen askel on mennä GitHub-repositorioon, jonka haluat kloonata. Siirry GitHubissa repositoriosivulle ja klikkaa “Code”-painiketta. Valitse sen jälkeen “HTTPS” ja kopioi URL-osoite leikepöydälle.</li>
+</ol>
+<p><br />
+</p>
+<p><video src="images/Jan-11-2025-01-16-58.mp4" style="width:80.0%" controls=""><a href="images/Jan-11-2025-01-16-58.mp4">Video</a></video></p>
+<p><strong>Video</strong>. Etähakemiston URL-osoitteen kopioiminen leikepöydälle GitHubissa.</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Seuraavaksi valitse RStudiossa “New Project” → “Version Control” → “Git”. Liitä juuri kopioitu URL-osoite “Repository URL” -kenttään, paina tietokoneen näppäimistösi Tabulaattori-näppäntä ja muokkaa kansion nimi haluamaasi muotoon. Voit esimerkiksi lisätä numeron “2” alkuperäisen nimen perään, jotta se eroaa vanhasta ongelmallisesta repositoriosta.</li>
+</ol>
+<p><br />
+</p>
+<p><video src="images/Jan-11-2025-01-18-33.mp4" style="width:120.0%" controls=""><a href="images/Jan-11-2025-01-18-33.mp4">Video</a></video></p>
+<p><strong>Video</strong>. Etähakemiston kloonaaminen RStudiossa.</p>
+<p><br />
+</p>
+<p><br />
+</p>
+</div>
+<div id="yhteenveto-5" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Yhteenveto<a href="method-three.html#yhteenveto-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Uuden repositorion kloonaaminen on varma tapa ratkaista ongelmia, jotka liittyvät paikallisen ja etäversion välisiin ristiriitoihin. Tämä menetelmä takaa puhtaan lähtökohdan, jolloin voit jatkaa projektin työstämistä ilman aiempia teknisiä esteitä. Se soveltuu erityisesti tilanteisiin, joissa paikallisen hakemiston ongelmat ovat vaikeasti korjattavissa ja muut menetelmät, kuten <em>git reset</em>, eivät sovellu käytettäviksi.</p>
+<p><br />
+</p>
+<hr />
+<p>Divergent Git branches - ongelmasta ratkaisuun © 2025 by<br />
+Ville Langén is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>.</p>
+<p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="CC BY-SA 4.0" /></a></p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="method-two.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="hienosäätö-git-diff.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

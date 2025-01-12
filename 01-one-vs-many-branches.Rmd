@@ -1,4 +1,4 @@
-# Yksi Git-haara vaiko monta?
+# Yksi Git-haara vaiko monta?{#one-or-many-brances}
 
 <br><br>
 <img src="images/one-vs-many-roads.jpg" alt="Test Image" style="max-width: 100%; height: auto;">

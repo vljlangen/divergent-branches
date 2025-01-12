@@ -1,19 +1,54 @@
-## Korjausmetodi 3: Uuden repositorion kloonaaminen
+# Korjausmetodi 3: kloonaus{#method-three}
 
-Jos edelliset korjausmenetelmät eivät ole toimineet ja tarvitset nopean ratkaisun ongelmaan, voit aina aloittaa alusta kloonaamalla uuden version etähakemistosta. Tämä menetelmä on luotettava, koska se tuo mukanaan puhtaan version projektistasi ja poistaa mahdolliset ristiriidat tai ongelmat paikallisesta Git-hakemistosta.
+<br><br> <img src="images/cloning.jpg" alt="Test Image" style="max-width: 100%; height: auto;"/>
 
-### 1. Kloonaa uusi repositorio GitHubista
+<figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
 
-Ensimmäinen askel on mennä GitHub-repositorioon, jonka haluat kloonata. Siirry GitHubissa repositoriosivulle ja klikkaa "Code"-painiketta. Valitse sen jälkeen "HTTPS" ja kopioi URL-osoite leikepöydälle.
+Image credit: <a href="https://www.pexels.com/photo/people-posing-in-costumes-with-golden-masks-15498630/" target="_blank">Pexels</a>
 
-<video1>
+</figcaption>
 
-### 2. Luo uusi projekti RStudioon ja kloonaa repositorio
+<br><br>
 
-Seuraavaksi mene RStudioon ja valitse "New Project" → "Version Control" → "Git". Liitä juuri kopioitu URL-osoite "Repository URL" -kenttään ja määritä haluamasi uusi kansio. Muista antaa kansiolle uusi nimi (esimerkiksi lisää numeron "2" alkuperäisen nimen perään), jotta se eroaa vanhasta ongelmallisesta repositoriosta.
+Jos edelliset korjausmenetelmät eivät toimi tai sovellu käytettäviksi, voit aina aloittaa puhtaalta pöydältä kloonaamalla uuden version etähakemistosta. Samalla tämä paitsi tuo mukanaan puhtaan version projektistasi myös poistaa ongelmat ja ristiriidat, joita paikallisen Git-hakemiston kanssa oli.
 
-<video2>
 
+## Työvaiheet
+
+1. Ensimmäinen askel on mennä GitHub-repositorioon, jonka haluat kloonata. Siirry GitHubissa repositoriosivulle ja klikkaa "Code"-painiketta. Valitse sen jälkeen "HTTPS" ja kopioi URL-osoite leikepöydälle.
+
+\
+
+![](images/Jan-11-2025-01-16-58.mp4){width="80%"}
+
+**Video**. Etähakemiston URL-osoitteen kopioiminen leikepöydälle GitHubissa.
+
+
+
+
+
+\
+
+\
+
+2. Seuraavaksi valitse RStudiossa "New Project" → "Version Control" → "Git". Liitä juuri kopioitu URL-osoite "Repository URL" -kenttään, paina tietokoneen näppäimistösi Tabulaattori-näppäntä ja muokkaa kansion nimi haluamaasi muotoon. Voit esimerkiksi lisätä numeron "2" alkuperäisen nimen perään, jotta se eroaa vanhasta ongelmallisesta repositoriosta.
+
+\
+
+
+![](images/Jan-11-2025-01-18-33.mp4){width="120%"}
+
+**Video**. Etähakemiston kloonaaminen RStudiossa.
+
+\
+
+\
+
+## Yhteenveto
+
+Uuden repositorion kloonaaminen on varma tapa ratkaista ongelmia, jotka liittyvät paikallisen ja etäversion välisiin ristiriitoihin. Tämä menetelmä takaa puhtaan lähtökohdan, jolloin voit jatkaa projektin työstämistä ilman aiempia teknisiä esteitä. Se soveltuu erityisesti tilanteisiin, joissa paikallisen hakemiston ongelmat ovat vaikeasti korjattavissa ja muut menetelmät, kuten *git reset*, eivät sovellu käytettäviksi.
+
+\
 
 ------------------------------------------------------------------------
 

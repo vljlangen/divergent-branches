@@ -1,4 +1,4 @@
-# Haarojen divergenssi
+# Haarojen divergenssi{#divergences}
 
 <br><br>
 <img src="images/divergence.jpg" alt="Test Image" style="max-width: 100%; height: auto;">
