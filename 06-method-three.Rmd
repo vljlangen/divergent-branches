@@ -1,0 +1,23 @@
+## Korjausmetodi 3: Uuden repositorion kloonaaminen
+
+Jos edelliset korjausmenetelmät eivät ole toimineet ja tarvitset nopean ratkaisun ongelmaan, voit aina aloittaa alusta kloonaamalla uuden version etähakemistosta. Tämä menetelmä on luotettava, koska se tuo mukanaan puhtaan version projektistasi ja poistaa mahdolliset ristiriidat tai ongelmat paikallisesta Git-hakemistosta.
+
+### 1. Kloonaa uusi repositorio GitHubista
+
+Ensimmäinen askel on mennä GitHub-repositorioon, jonka haluat kloonata. Siirry GitHubissa repositoriosivulle ja klikkaa "Code"-painiketta. Valitse sen jälkeen "HTTPS" ja kopioi URL-osoite leikepöydälle.
+
+<video1>
+
+### 2. Luo uusi projekti RStudioon ja kloonaa repositorio
+
+Seuraavaksi mene RStudioon ja valitse "New Project" → "Version Control" → "Git". Liitä juuri kopioitu URL-osoite "Repository URL" -kenttään ja määritä haluamasi uusi kansio. Muista antaa kansiolle uusi nimi (esimerkiksi lisää numeron "2" alkuperäisen nimen perään), jotta se eroaa vanhasta ongelmallisesta repositoriosta.
+
+<video2>
+
+
+------------------------------------------------------------------------
+
+Divergent Git branches - ongelmasta ratkaisuun © 2025 by\
+Ville Langén is licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
